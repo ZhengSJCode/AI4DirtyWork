@@ -1,0 +1,33 @@
+{
+  "name": "skill-for-dirtywork",
+  "owner": {
+    "name": "zhengshuaijie",
+    "email": "zhengshuaiji@gmail.com"
+  },
+  "metadata": {
+    "description": "Skill for dirtywork",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dirtywork-skills",
+      "description": "Collection of dirtywork skills including Excel, Word, PowerPoint, and PDF capabilities",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/one-page-think"
+      ]
+    
+    }
+    ,
+    {
+      "name": "skills-creator",
+      "description": "Dirtywork API and SDK documentation skill for building LLM-powered applications",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/skills-creator"
+      ]
+    }
+  ]
+}
