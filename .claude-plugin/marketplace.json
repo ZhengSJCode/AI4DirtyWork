@@ -15,7 +15,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/one-page-think"
+        "./skills/one-page-think",
+        "./skills/focus-task"
       ]
     
     }
